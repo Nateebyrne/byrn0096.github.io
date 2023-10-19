@@ -1,0 +1,32 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: blanchedalmond;
+}
+.site-title{
+    color: brown;
+}
+#my-image{
+    box-shadow: 0px 0px 1px 2px black;
+}
+#hobbies{
+    list-style-type: square;
+}
+#hobbies :nth-child(odd){
+    background-color: bisque;
+}
+nav a{    
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black
+}
+nav a:hover{
+    background-color: black;
+    border: 2px solid white;
+}
+nav a:focus{
+    background-color: black;
+    border: 2px solid white;
+}
