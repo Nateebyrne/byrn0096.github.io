@@ -1,0 +1,171 @@
+/* sizes the overall page */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+}
+
+/*  sets standard font and background for whole page */
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sizes all the headings */
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 20px 0px 10px;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 20px 0px 10px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 20px 0px 10px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px 0px 10px;
+}
+
+/* creates main interior of page*/
+.interior {
+    width: 950px;
+    height: 100%;
+    background-color: #D5E9E7;
+}
+
+/* adds styling to page navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px;
+}
+
+nav li {
+    background-color: transparent;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+nav li::before {
+    margin-right: 10px;
+}
+
+nav li :nth-child(2) {
+    display: none;
+}
+
+.middle {
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 18px;
+}
+
+/* sizes background picture */
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* adds text over the image */
+.page-header {
+    left: 0;
+    position: relative;
+    text-align: center;
+    bottom: 156px;
+    width: 100%;
+    color: white;
+}
+
+/* places the picture to the side of the text */
+.small-starfish {
+    width: 250px;
+    float: left;
+    padding: 20px;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+/* formats the input fields */
+input[type=text] {
+    width: 100%;
+    padding: 10px 0px 10px;
+    margin: 5px 0px 10px;
+    border: 1px solid #ccc;
+}
+
+/* formats the message box size */
+textarea {
+    width: 100%;
+    padding: 20px 0px 20px;
+    margin: 5px 0px 5px;
+    resize: none;
+}
+
+/* formats the radio buttons */
+.radio-form {
+    margin: 20px 0px 0px;
+    padding-top: 5px;
+}
+
+/* formats the send button */
+input[type=submit] {
+    width: 8%;
+    padding: 10px;
+    margin: 10px 0px 10px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+/* creates border and padding around the form */
+.form-box {
+    border: 1px solid black;
+    padding-top: 30px;
+}
+
+/* adds spacing for header */
+.header {
+    height: 300px;
+}
+
+/* removes spacing on facts area */
+.facts {
+    padding: 0px 15px 0px;
+}
+
+/* adds padding for main information on page */
+.info {
+    padding: 20px;
+}
+
+/* alligns the copyright note*/
+.footer {
+    text-align: right;
+    padding: 0px 20px 30px;
+    margin: 10px;
+}
