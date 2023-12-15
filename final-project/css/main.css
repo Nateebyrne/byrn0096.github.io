@@ -1,0 +1,437 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* sets up font */
+html {
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+/* sets up general sizing and frame work for heading and paragraphs */
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5.063rem;
+    margin: 0.5em 0 0.3em;
+}
+
+h2 {
+    font-size: 3.375rem;
+    margin: 1em 0 0.5em;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 1em 0;
+}
+
+/* sets margin, padding and sizing for main sections on the site */
+.page-nav,
+.inner-banner,
+.about-us,
+.services,
+.vision,
+.team,
+.contact,
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#services,
+#team,
+#contact {
+    padding: 0 15px;
+}
+
+nav,
+.banner,
+.about-us,
+.service-info,
+.our-vision {
+    padding: 15px;
+}
+
+/* adds style to various buttons */
+.connect-btn {
+    background-color: #c78c06;
+    color: #222;
+    border-radius: 0;
+    padding: 20px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.digital-btn,
+.market-btn,
+.video-btn,
+.web-btn,
+.print-btn,
+.learn-btn {
+    background-color: #222;
+    color: white;
+    border-radius: 0;
+    padding: 20px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.learn-btn {
+    background-color: rgba(2, 2, 2, 0.8);
+    border: 1px solid #c78c06;
+}
+
+.search-btn {
+    background-color: rgba(2, 2, 2, 0.8);
+    border: 1px solid #c78c06;
+    color: #c78c06;
+}
+
+/* styles nav */
+nav,
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+nav ul li:first-child {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav li a {
+    padding: 10px 0;
+    color: #c78c06;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+nav li:first-child a {
+    width: fit-content;
+    padding: 0;
+}
+
+nav .current,
+nav li a:hover,
+nav li a:focus,
+nav li a:active {
+    color: #222;
+    background-color: #c78c06;
+}
+
+nav li:first-child a:hover,
+nav li:first-child a:focus,
+nav li:first-child a:active {
+    background-color: #222;
+}
+
+/* styles search bar in nav */
+.search form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search input {
+    width: 100%;
+    height: 3em;
+}
+
+.search button {
+    width: fit-content;
+    height: auto;
+    color: #c78c06;
+    background-color: #222;
+}
+
+.fa-magnifying-glass {
+    font-size: large;
+}
+
+/* styles bannner */
+.banner {
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.inner-banner {
+    background-color: rgba(2, 2, 2, 0.6);
+    color: white;
+    padding: 30px;
+}
+
+/* adds background colour to various sections */
+#about-us,
+.digital,
+.marketing,
+.video-prod,
+.web-dev,
+.print,
+.john,
+.bob,
+.top {
+    background-color: #ffe6ac;
+    padding-bottom: 30px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.digital,
+.marketing,
+.video-prod,
+.web-dev,
+.print {
+    margin-bottom: 15px;
+}
+
+/* adds background imag and styles our vision section */
+.vision {
+    background-image: url("../images/vision.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+
+}
+
+/* styles teams section */
+.bob,
+.john {
+    margin-bottom: 15px;
+}
+
+/* styles line under the name */
+.team hr {
+    border: 1.5px solid #c78c06;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* styles the contact form */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#your-message {
+    height: 15em;
+}
+
+.submit-button {
+    color: #c78c06;
+    border: transparent;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 0%;
+    background-color: #222;
+
+}
+
+/* styles hours of operations table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* styles footer*/
+footer {
+    padding: 15px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+/* sets up styling for desktop */
+@media screen and (min-width: 760px) {
+
+    /* styles nav to fit desktop format */
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav li a {
+        padding: 15px 30px;
+    }
+
+    .banner {
+        padding: 40px 0;
+    }
+
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .about-us h2 {
+        margin: 0;
+    }
+
+    .digital-btn,
+    .market-btn,
+    .video-btn,
+    .web-btn,
+    .print-btn {
+        padding: 20px 60px;
+    }
+
+    .digital-btn a,
+    .market-btn a,
+    .video-btn a,
+    .web-btn a,
+    .print-btn a,
+    .learn-btn a {
+        font-size: larger;
+    }
+
+    .digital,
+    .marketing {
+        margin: 0;
+    }
+
+    /* sets up service in a grid to optimize desktop screen space */
+    .service-int {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 8fr 7.2fr;
+        grid-template-areas:
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
+    }
+
+    .digital {
+        grid-area: digital;
+    }
+
+    .marketing {
+        grid-area: marketing;
+    }
+
+    .video-prod {
+        grid-area: video;
+    }
+
+    .web-dev {
+        grid-area: web;
+    }
+
+    .print {
+        grid-area: print;
+    }
+
+    /* sets up grid for team desc and images */
+    .all-john,
+    .all-bob {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-img1,
+    .team-img2 {
+        margin-bottom: -5px;
+    }
+
+    .team-img2 {
+        order: 1;
+    }
+
+    /* sets up grid for contact section to optimize space */
+    .hours h3 {
+        margin-bottom: -5px;
+    }
+
+    .contact {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "header header"
+            "form location"
+            "form location"
+            "hours hours"
+        ;
+
+    }
+
+    .contact-head {
+        grid-area: header;
+        margin-bottom: -60px;
+    }
+
+    .message {
+        grid-area: form;
+    }
+
+    .hours {
+        grid-area: hours;
+        margin-bottom: 15px;
+        margin-top: -60px;
+    }
+
+    .location {
+        grid-area: location;
+    }
+}
